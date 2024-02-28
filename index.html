@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Components</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <form action="javascript:void(0)">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="searchInput" type="text" placeholder="Search users">
+            </form>
+            <nav class="dropdown" data-dropdown>
+                <div class="link" data-dropdown-button>
+                    <a href="javascript:void(0)">Sell</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <ul class="dropdown-menu">
+                    <li class="rate active">Top rated</li>
+                    <li class="trend">Top trending</li>
+                    <li class="sell">Top selling</li>
+                    <li class="newest">Newest</li>
+                </ul>
+            </nav>
+            <label class="check-form">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <span>Free for all teams</span>
+            </label>
+            <nav class="dropdown" data-dropdown>
+                <div class="link" data-dropdown-button>
+                    <a href="javascript:void(0)">More Filters</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <ul class="dropdown-menu">
+                    <li class="filter1 active">Filter 1</li>
+                    <li class="filter2">Filter 2</li>
+                    <li class="filter3">Filter 3</li>
+                    <li class="filter4">Filter 4</li>
+                </ul>
+            </nav>
+            <nav class="dropdown" data-dropdown>
+                <div class="link" data-dropdown-button>
+                    <a href="javascript:void(0)">Categories</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <ul class="dropdown-menu">
+                    <li class="category1 active">Category 1</li>
+                    <li class="category2">Category 2</li>
+                    <li class="category3">Category 3</li>
+                    <li class="category4">Category 4</li>
+                </ul>
+            </nav>
+        </header>
+        <div class="card">
+            <div class="box"></div>
+            <h4>Intranet Suite</h4>
+            <p>Your fully personalized central<br>collaboration hub that connects teams,<br>locations, tools and people</p>
+            <div class="tags">
+                <span>mobile</span>
+                <span>project management</span>
+                <span>themes & styles</span>
+            </div>
+            <div class="stars">
+                <i data-star="5.0"></i>
+            </div>
+            <div class="reviews">
+                <p>45 reviews</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
